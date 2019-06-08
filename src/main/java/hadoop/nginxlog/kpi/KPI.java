@@ -1,4 +1,4 @@
-package nginxlog.kpi;
+package hadoop.nginxlog.kpi;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

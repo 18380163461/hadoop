@@ -1,5 +1,5 @@
-package nginxlog.iplocation;
-import nginxlog.kpi.KPI;
+package hadoop.nginxlog.iplocation;
+import hadoop.nginxlog.kpi.KPI;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;

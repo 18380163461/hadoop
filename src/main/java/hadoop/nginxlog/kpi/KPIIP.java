@@ -1,4 +1,4 @@
-package nginxlog.kpi;
+package hadoop.nginxlog.kpi;
 
 import java.io.IOException;
 import java.util.HashSet;
@@ -50,8 +50,8 @@ public class KPIIP {
 
     public static void main(String[] args) throws Exception {
         System.setProperty("HADOOP_USER_NAME", "root");
-        String input = "hdfs://192.168.93.131:9000/input/access.log";
-        String output = "hdfs://192.168.93.131:9000/output/output2";
+        String input = "hdfs://192.168.93.131:9000/input/access_log.txt";
+        String output = "hdfs://192.168.93.131:9000/output/output3";
 
         JobConf conf = new JobConf(KPIIP.class);
         conf.setJobName("KPIIP");

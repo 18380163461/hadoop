@@ -1,4 +1,4 @@
-package nginxlog.kpi;
+package hadoop.nginxlog.kpi;
 
 import java.io.IOException;
 import java.util.Iterator;

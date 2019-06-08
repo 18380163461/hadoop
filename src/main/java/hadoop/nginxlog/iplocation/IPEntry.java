@@ -1,4 +1,4 @@
-package nginxlog.iplocation;
+package hadoop.nginxlog.iplocation;
 /**
  * * 一条IP范围记录，不仅包括国家和区域，也包括起始IP和结束IP *
  *

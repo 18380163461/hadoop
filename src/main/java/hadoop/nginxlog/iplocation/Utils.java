@@ -1,4 +1,4 @@
-package nginxlog.iplocation;
+package hadoop.nginxlog.iplocation;
 import java.io.UnsupportedEncodingException;
 
 

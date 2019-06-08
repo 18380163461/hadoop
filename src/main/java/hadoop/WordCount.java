@@ -1,3 +1,5 @@
+package hadoop;
+
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
@@ -46,7 +48,7 @@ public class WordCount {
         String input = "hdfs://192.168.93.131:9000/input/input/test1.txt";
         String output = "hdfs://192.168.93.131:9000/output2";
         JobConf conf = new JobConf(WordCount.class);
-        conf.setJobName("WordCount");
+        conf.setJobName("hadoop.WordCount");
         conf.setOutputKeyClass(Text.class);
         conf.setOutputValueClass(IntWritable.class);
         conf.setMapperClass(TokenizerMapper.class);
